@@ -1,2 +1,5 @@
-# CurrencyConverterApp_BootcampProject
-Final Project #6
+# Bootcamp Project #6
+
+## Module: React
+
+The objective was to translate Project #4 (from module JavaScript) into React.
