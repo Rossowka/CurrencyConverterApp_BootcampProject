@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import './App.css';
-import ExchangeForm from './Components/ExchangeForm';
+import ExchangeForm from './Components/ExchangeForm.js';
 
 class App extends Component {
   render() {
