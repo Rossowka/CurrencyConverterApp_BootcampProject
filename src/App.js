@@ -14,7 +14,7 @@ class App extends Component {
                 <AttachMoneyIcon style={{ fontSize: 90 }}/>
               </div>
               <h3 id='title' className="white-text center-align card-title">CURRENCY EXCHANGE</h3>
-          </div>
+            </div>
           </div>
         </section>
         <ExchangeForm />
