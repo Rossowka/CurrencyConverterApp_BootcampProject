@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import AttachMoneyIcon from '@material-ui/icons/AttachMoney';
 import './App.css';
+import ExchangeForm from './Components/ExchangeForm';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="container">
+        <section className="row">
+          <div className="col s12">
+            <div className="card-panel small amber">
+              <div className="center-align white-text">
+                <AttachMoneyIcon style={{ fontSize: 90 }}/>
+              </div>
+              <h3 id='title' className="white-text center-align card-title">CURRENCY EXCHANGE</h3>
+          </div>
+          </div>
+        </section>
+        <ExchangeForm />
+      </div>
+    );
+  }
 }
 
 export default App;
