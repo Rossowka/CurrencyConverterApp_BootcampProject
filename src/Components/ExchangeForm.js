@@ -38,5 +38,11 @@ class ExchangeForm extends Component {
       .catch((err) => console.log(err));
   };
 
+  handleSelectCurrency = (e) => {
+    this.setState({
+      inputCurrency: e.target.value,
+      exchangeRate: 0,
+    });
+  };
 
   export default ExchangeForm;
