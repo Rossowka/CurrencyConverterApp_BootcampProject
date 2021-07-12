@@ -99,6 +99,12 @@ class ExchangeForm extends Component {
                 </div>
             </section>
         
+            <ExchangeResult 
+            result={this.state.result}
+            exchangeRate={this.state.exchangeRate}
+            currency={this.state.inputCurrency}
+            />
+
           </>
         );
       }
