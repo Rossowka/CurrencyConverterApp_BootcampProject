@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Rossowka/CurrencyConverterApp_BootcampProject/static/css/main.6e4d4676.chunk.css",
+    "main.js": "/Rossowka/CurrencyConverterApp_BootcampProject/static/js/main.956b03ff.chunk.js",
+    "main.js.map": "/Rossowka/CurrencyConverterApp_BootcampProject/static/js/main.956b03ff.chunk.js.map",
+    "runtime-main.js": "/Rossowka/CurrencyConverterApp_BootcampProject/static/js/runtime-main.ef10c0ea.js",
+    "runtime-main.js.map": "/Rossowka/CurrencyConverterApp_BootcampProject/static/js/runtime-main.ef10c0ea.js.map",
+    "static/js/2.04a65f57.chunk.js": "/Rossowka/CurrencyConverterApp_BootcampProject/static/js/2.04a65f57.chunk.js",
+    "static/js/2.04a65f57.chunk.js.map": "/Rossowka/CurrencyConverterApp_BootcampProject/static/js/2.04a65f57.chunk.js.map",
+    "index.html": "/Rossowka/CurrencyConverterApp_BootcampProject/index.html",
+    "static/css/main.6e4d4676.chunk.css.map": "/Rossowka/CurrencyConverterApp_BootcampProject/static/css/main.6e4d4676.chunk.css.map",
+    "static/js/2.04a65f57.chunk.js.LICENSE.txt": "/Rossowka/CurrencyConverterApp_BootcampProject/static/js/2.04a65f57.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef10c0ea.js",
+    "static/js/2.04a65f57.chunk.js",
+    "static/css/main.6e4d4676.chunk.css",
+    "static/js/main.956b03ff.chunk.js"
+  ]
+}
