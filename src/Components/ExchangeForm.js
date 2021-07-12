@@ -45,6 +45,18 @@ class ExchangeForm extends Component {
         });
     };
 
+    handleExchange = (e) => {
+        const { amount, currencies, inputCurrency } = this.state;
+        e.preventDefault();
+
+        const exchangeRate = currencies.find((elem) => elem.code === inputCurrency);
+
+        this.setState({
+        result: Math.abs(amount) * exchangeRate.mid,
+        exchangeRate: exchangeRate.mid,
+        });
+    };
+
     render() {
         return (
           <>
