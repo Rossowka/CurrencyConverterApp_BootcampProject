@@ -17,4 +17,26 @@ class ExchangeForm extends Component {
     }
   };
 
+  fetchUrl = `https://api.nbp.pl/api/exchangerates/tables/a/last/`;
+
+  componentDidMount() {
+    fetch(this.fetchUrl)
+      .then((result) => result.json())
+      .then((response) => {
+        const currencyTableApi = [];
+        let currencyMap = [];
+    
+        for (const key in response[0].rates) {
+          currencyTableApi.push(response[0].rates[key]);
+          currencyMap = currencyTableApi.map((curr, index) => ({
+            ...curr,
+            index,
+          }));
+        }
+        this.setState({ currencies: currencyMap });
+      })
+      .catch((err) => console.log(err));
+  };
+
+
   export default ExchangeForm;
